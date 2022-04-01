@@ -8,9 +8,22 @@
 </head>
 <body>
     
-    <h1>Hello World</h1>
+    <h1 id="my-title" >Hello World</h1>
     <p>test</p>
-    <p>test2</p>
-    <p>test3</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, dolores?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, rem!</p>
+    <p>Eligendi vitae ullam debitis voluptate quod, dolor recusandae nihil quisquam?</p>
+    <p>Officia, voluptates maiores? Odit, nihil! Quisquam maiores quam quae quod.</p>
+
+<script>
+    const myTitle = document.getElementById("my-title")
+    myTitle.onclick = function(){
+        myTitle.style.color = "red"
+        myTitle.style.fontSize = "40px"
+    }
+  
+    const test = document.querySelector(".test")
+    testEl.style.border = "1px solid red"
+</script>
 </body>
 </html>
